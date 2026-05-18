@@ -1,0 +1,4 @@
+Mean accuracy: 0.4932 ± 0.2023
+Per-subject accuracies: [0.5789473684210527, 0.3684210526315789, 0.7543859649122807, 0.2631578947368421, 0.3157894736842105, 0.24561403508771928, 0.43859649122807015, 0.6666666666666666, 0.8070175438596491]
+
+Args: {'data_dir': '/mnt/workspace/bci_eegnet_repro/data', 'save_dir': './checkpoints', 'log_dir': './logs', 'subjects': [1, 2, 3, 4, 5, 6, 7, 8, 9], 'batch_size': 64, 'epochs': 300, 'lr': 0.001, 'weight_decay': 0.0, 'dropout_rate': 0.25, 'val_ratio': 0.2, 'patience': 50, 'num_workers': 0, 'seed': 2024}

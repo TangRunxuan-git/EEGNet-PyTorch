@@ -1,0 +1,11 @@
+data/*.gdf
+true_labels/*.mat
+*.zip
+checkpoints/*.pth
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.log
+logs/
+outputs/checkpoints/
+outputs/logs/

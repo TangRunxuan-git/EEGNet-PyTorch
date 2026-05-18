@@ -1,0 +1,136 @@
+nohup: 忽略输入
+/usr/local/lib/python3.11/site-packages/torch/nn/modules/conv.py:543: UserWarning: Using padding='same' with even kernel lengths and odd dilation may require a zero-padded copy of the input be created (Triggered internally at /pytorch/aten/src/ATen/native/Convolution.cpp:1031.)
+  return F.conv2d(
+============================================================
+EEGNet Cross-subject 实验 (留一法)
+============================================================
+设备: cuda
+测试受试者: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+每折轮数: 200
+------------------------------------------------------------
+
+  测试受试者 1 (用其他人训练)...
+Subject 2: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 3: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 4: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 5: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 6: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 7: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 8: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 9: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 1: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+    验证准确率: 0.3492 → 测试准确率: 0.2778
+
+  测试受试者 2 (用其他人训练)...
+Subject 1: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 3: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 4: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 5: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 6: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 7: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 8: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 9: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 2: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+    验证准确率: 0.3471 → 测试准确率: 0.2569
+
+  测试受试者 3 (用其他人训练)...
+Subject 1: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 2: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 4: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 5: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 6: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 7: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 8: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 9: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 3: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+    验证准确率: 0.3449 → 测试准确率: 0.2743
+
+  测试受试者 4 (用其他人训练)...
+Subject 1: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 2: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 3: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 5: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 6: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 7: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 8: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 9: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 4: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+    验证准确率: 0.3492 → 测试准确率: 0.2083
+
+  测试受试者 5 (用其他人训练)...
+Subject 1: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 2: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 3: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 4: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 6: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 7: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 8: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 9: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 5: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+    验证准确率: 0.3319 → 测试准确率: 0.2604
+
+  测试受试者 6 (用其他人训练)...
+Subject 1: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 2: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 3: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 4: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 5: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 7: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 8: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 9: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 6: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+    验证准确率: 0.3189 → 测试准确率: 0.2743
+
+  测试受试者 7 (用其他人训练)...
+Subject 1: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 2: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 3: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 4: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 5: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 6: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 8: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 9: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 7: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+    验证准确率: 0.3145 → 测试准确率: 0.2188
+
+  测试受试者 8 (用其他人训练)...
+Subject 1: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 2: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 3: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 4: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 5: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 6: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 7: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 9: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 8: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+    验证准确率: 0.3254 → 测试准确率: 0.3125
+
+  测试受试者 9 (用其他人训练)...
+Subject 1: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 2: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 3: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 4: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 5: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 6: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 7: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 8: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+Subject 9: 288 trials, 25 channels, 501 time points, labels: [72 72 72 72]
+    验证准确率: 0.3644 → 测试准确率: 0.2917
+
+============================================================
+Cross-subject 实验结果
+============================================================
+受试者 1 (作为测试): 0.2778
+受试者 2 (作为测试): 0.2569
+受试者 3 (作为测试): 0.2743
+受试者 4 (作为测试): 0.2083
+受试者 5 (作为测试): 0.2604
+受试者 6 (作为测试): 0.2743
+受试者 7 (作为测试): 0.2188
+受试者 8 (作为测试): 0.3125
+受试者 9 (作为测试): 0.2917
+
+平均准确率: 0.2639 ± 0.0311
+随机基线 (4类): 0.2500
+
+结果保存至: cross_subject_results_20260512_122620.txt

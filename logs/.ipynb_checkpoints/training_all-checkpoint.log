@@ -1,0 +1,7 @@
+nohup: 忽略输入
+Traceback (most recent call last):
+  File "/mnt/workspace/bci_eegnet_repro/train.py", line 23, in <module>
+    from src.data.loader import get_dataloaders
+  File "/mnt/workspace/bci_eegnet_repro/src/data/loader.py", line 10, in <module>
+    import mne
+ModuleNotFoundError: No module named 'mne'
